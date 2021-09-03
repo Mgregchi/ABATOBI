@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Abatobi</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+    <!-- Intro settings -->
+    <style>
+      /* Default height for small devices */
+      #intro {
+        height: 600px;
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+      @media (max-width: 991px) {
+              #intro {
+              /* Margin to fix overlapping fixed navbar */
+              margin-top: 45px;
+      	}
+      }
+
+
+      .ml9 {
+        position: relative;
+        font-weight: 200;
+        font-size: 4em;
+        }
+
+        .ml9 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+        }
+
+        .ml9 .letter {
+        transform-origin: 50% 100%;
+        display: inline-block;
+        line-height: 1em;
+        }      
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" hidden>
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" target="_blank" href="">
+          <img src="#" height="16" alt="Abatobi" loading="lazy"
+            style="font-size: x-small;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">Features</a>
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <!-- Dropdown menu -->
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Partners</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Developer</a
+                    >
+                  </li>
+                </ul>
+              </li>              
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" rel="nofollow"
+                  target="_blank">About</a>
+              </li>                          
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.youtube.com/channel/" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.facebook.com/" rel="nofollow" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://twitter.com/" rel="nofollow" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="p-5 text-center bg-image shadow-1-strong"
+      style="background-image: url('https://mdbootstrap.com/img/new/slides/205.jpg');">
+      <!--div class="mask" style="background-color: rgba(0, 0, 0, 0.7);"-->
+
+      <div class="mask" style="
+        background: linear-gradient(
+          45deg,
+          rgba(29, 236, 197, 0.7),
+          rgba(91, 14, 214, 0.7) 100%
+        );
+      ">        
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white px-4">
+            <h1 class="mb-3" hidden>Coming Soon!</h1>
+            <h1 class="ml9">
+                <span class="text-wrapper">
+                  <span class="letters">Coming Soon!</span>
+                </span>
+              </h1>
+            <!-- Button trigger modal -->
+            <h2>This website 
+                <span
+                   class="txt-rotate"
+                   data-period="2000"
+                   data-rotate='[ "is almost ready.", "is developed for you.", 
+                   "offers early access. Click the button below.", "is here to stay!",
+                    "offers best of service!", "owners are thanking you for visiting",
+                    "is like no other!"]'></span>
+              </h2>
+            <a class="btn btn-outline-light btn-lg m-2 btn-primary shadow-5-strong" role="button"
+              rel="nofollow" target="_blank" 
+              data-mdb-toggle="modal"
+              data-mdb-target="#formModal"
+            >Get notified</a>
+            <!-- Time Counter -->
+            <h3 id="time-counter" class=" my-4 p-4"></h3>              
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5"><!--MODAL: ID = form-->
+    <section class="border p-4 text-center mb-4 bg-light">
+
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="formModal"
+              tabindex="-1"
+              aria-labelledby="formModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="formModalLabel">
+                      Be the <span class="text-info">First!</span>
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-mdb-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-6 gx-5 mb-4 d-lg-flex align-items-center">
+                            <div>
+                              <h4 class="p-4"><strong>Subscribe to stay up to date </strong></h4>
+                              <p class="text-muted">
+                                We'll sooon finish up the development of this site.
+                                To stay up-to-date please Subscribe and you will be notified once we're all set.
+                              </p>
+                            </div>
+                          </div>
+                
+                          <div class="col-md-6 gx-5 mb-4" id="form">
+                            <form method="POST" action="https://getform.io/f/72703077-ec49-4706-abd8-6615c4509cb1" class="was-validated">
+                              <!-- Name input -->
+                              <div class="form-outline m-4">
+                                <input type="text" id="form5Example1" class="form-control" />
+                                <label class="form-label" for="form5Example1">Name</label>
+                              </div>
+                
+                              <!-- Email input -->
+                              <div class="form-outline m-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                              </div>
+                
+                              <!-- Submit button -->
+                              <button type="submit" class="shadow btn btn-primary btn-block mb-4">
+                                Subscribe
+                              </button>
+                            </form>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-mdb-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary" hidden>
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>    
+
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+
+
+    <div class="text-center py-4 align-items-center" hidden>
+      <p>Follow Abatobi on social media</p>
+      <a href="https://www.youtube.com/" class="btn btn-primary m-1" role="button"
+        rel="nofollow" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/" class="btn btn-primary m-1" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/" class="btn btn-primary m-1" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-dark" href="https://abatobi.com/">Abatobi.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+
+    <!-- Time Counter -->
+    <script type="text/javascript">
+      // Set the date we're counting down to
+      var countDownDate = new Date();
+      countDownDate.setDate(countDownDate.getDate() + 10);
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById('time-counter').innerHTML =
+          days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById('time-counter').innerHTML = 'EXPIRED';
+        }
+      }, 1000);
+    </script>
+    <script>
+    var TxtRotate = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+    };
+
+    TxtRotate.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 300 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+    }
+
+    setTimeout(function() {
+        that.tick();
+    }, delta);
+    };
+
+    window.onload = function() {
+    var elements = document.getElementsByClassName('txt-rotate');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-rotate');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+    document.body.appendChild(css);
+    };
+    </script>   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script>
+        // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml9 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    
+    anime.timeline({loop: true})
+      .add({
+        targets: '.ml9 .letter',
+        scale: [0, 1],
+        duration: 1500,
+        elasticity: 600,
+        delay: (el, i) => 45 * (i+1)
+      }).add({
+        targets: '.ml9',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+    </script>    
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
